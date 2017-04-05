@@ -82,9 +82,6 @@
                             <div itemprop="author" itemscope itemtype="https://schema.org/Person">
                                 <meta itemprop="name" content="{{article.createdBy['displayName']}}"/>
                             </div>
-                            <div class="card__read-time_wrap">
-                                <p class="card__read-time"><span class="card__paragraph-icon"></span> {{Helper.renderReadingTime(article.readingTime) | raw}}</p>
-                            </div>
                         </div>
                         {% if article.hasMedia == 'TRUE' %}
                             <div class="card__image" style="background-image: url('{{ articleImg }}');background-size: cover;background-position:center center;"></div>
