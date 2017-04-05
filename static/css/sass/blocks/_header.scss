@@ -33,7 +33,7 @@
       }
       &::before, &::after {
         content: normal;
-      }
+      }  
     }
     &-highlight {
       //background: #E6F9F5;
@@ -434,7 +434,7 @@
         &:hover {
           color: $call-to-action-highlight;
           &.sign-out {
-            color: #e9313f;
+            color: #ed2837;
           }
         }
       }
