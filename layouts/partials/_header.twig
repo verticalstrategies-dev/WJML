@@ -18,14 +18,6 @@
                 </a>
             </div>
             <div class="header__heading--right">
-                {% if _User.isGuest()%}
-                    <div class="header__heading-link" id="login">
-                        <a href="javascript:void(0);" class="header__login__link header__login__link"></a> 
-                        {% if not _Network.isNetworkClosed(network)%}
-                            | <a href="javascript:void(0);" class="header__login__link header__login__link--signup sign-up__link">Sign Up</a>
-                        {% endif %}
-                    </div>
-                {% endif %}
                 <div class="header__heading-icons">
                     {% set profileImage = ''%}
                     {% set userImage = '' %}
