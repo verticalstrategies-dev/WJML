@@ -41,11 +41,11 @@
 
   }
   h1 {
-    @include text-lg($font-weight: 700, $color: $body-text,$font-multiplier-sm:1.4);
+    @include text-lg($font-weight: 700, $color: $headline-text,$font-multiplier-sm:1.4);
     margin-bottom: 28px;
   }
   h2 {
-    @include text-lg($font-weight: 700, $color: $body-text, $font-multiplier-sm:1.25, $font-multiplier: 2);
+    @include text-lg($font-weight: 700, $color: $headline-text, $font-multiplier-sm:1.25, $font-multiplier: 2);
     margin-bottom: 28px;
   }
   p {
@@ -142,7 +142,8 @@
     display: inline-block;
     padding-bottom: 12px;
     position: relative;
-    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.72, $color: $body-text);
+    color: #000000;
+    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.72,);
     &::after {
       content: "";
       position: absolute;
@@ -151,7 +152,7 @@
       width: 20px;
       height: 4px;
       border-radius: 25%;
-      background-color: $body-text;
+      background-color: $article-body-text;
     }
   }
   &__author {
