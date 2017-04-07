@@ -41,11 +41,11 @@
 
   }
   h1 {
-    @include text-lg($font-weight: 700, $color: $headline-text,$font-multiplier-sm:1.4);
+    @include text-lg($font-weight: 700, $color: #000000, $font-multiplier-sm:1.4);
     margin-bottom: 28px;
   }
   h2 {
-    @include text-lg($font-weight: 700, $color: $headline-text, $font-multiplier-sm:1.25, $font-multiplier: 2);
+    @include text-lg($font-weight: 700, $color: #000000, $font-multiplier-sm:1.25, $font-multiplier: 2);
     margin-bottom: 28px;
   }
   p {
