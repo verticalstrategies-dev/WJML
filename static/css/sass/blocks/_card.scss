@@ -17,7 +17,7 @@
       @include text-sm($letter-spacing: 0.21px);
     }
 		.card__headline {
-			color: #000000!important;
+			color: #ffffff!important;
 		}
     .card__text {
       color: #000000!important;
@@ -602,7 +602,7 @@ div.home, div.channel, div.profile, .card-container, .profile__card-container {
       display: flex;
       .button__follow {
         max-width: none;
-        color: $body-text;
+        color: #000000;
         background-color: white;
         border: 1px solid #C6D5B8;
         margin-left: 5px;
