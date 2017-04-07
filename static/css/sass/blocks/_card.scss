@@ -17,10 +17,10 @@
       @include text-sm($letter-spacing: 0.21px);
     }
 		.card__headline {
-			color: $body-text!important;
+			color: #000000!important;
 		}
     .card__text {
-      color: $body-text!important;
+      color: #000000!important;
     }
     .card__content {
       flex: 0 1 auto!important;

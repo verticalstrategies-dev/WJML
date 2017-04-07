@@ -143,7 +143,7 @@
     padding-bottom: 12px;
     position: relative;
     color: #000000;
-    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.72,);
+    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.72);
     &::after {
       content: "";
       position: absolute;
